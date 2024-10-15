@@ -7,7 +7,7 @@ import React from 'react'
 export default function Navbar() {
     const pathname = usePathname();
     const router = useRouter();
-    console.log(pathname)
+    //console.log(pathname)
     const links = [
         {
             title: "About",
@@ -20,6 +20,10 @@ export default function Navbar() {
         {
             title: "Content",
             path: "/content"
+        },
+        {
+            title: "Blogs",
+            path: "/blogs"
         },
     ]
     const handler = () => {
