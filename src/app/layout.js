@@ -1,4 +1,4 @@
- import localFont from "next/font/local";
+import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/Components/Navbar";
 
@@ -25,8 +25,10 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar></Navbar>
+        <div className="">
 
-        {children}
+          {children}
+        </div>
         <footer className="bg-orange-500">
           this is footer
         </footer>

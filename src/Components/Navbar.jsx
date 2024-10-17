@@ -30,6 +30,13 @@ export default function Navbar() {
 
         router.push('/about')
     }
+    if (pathname.includes('dashboard')) {
+        return (
+            <div className='bg-green-400'>
+                dashboard layout
+            </div>
+        )
+    }
 
     return (
         <div>
