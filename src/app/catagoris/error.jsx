@@ -4,7 +4,7 @@ import React from 'react';
 const error = () => {
     return (
         <div>
-            catagory error
+            catagory error...
         </div>
     );
 };
