@@ -25,6 +25,14 @@ export default function Navbar() {
             title: "Blogs",
             path: "/blogs"
         },
+        {
+            title: "Catagories",
+            path: "/catagoris"
+        },
+        {
+            title: "dashboard",
+            path: "/dashboard"
+        },
     ]
     const handler = () => {
 
